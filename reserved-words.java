@@ -1,4 +1,4 @@
-# Modificadores de acesso:
+//  Modificadores de acesso:
 
 private: acesso apenas dentro da classe
 
@@ -6,7 +6,8 @@ protected: acesso por classes no mesmo pacote e subclasses
 
 public: acesso de qualquer classe
 
-# Modificadores de classes, variáveis ou métodos:
+//  Modificadores de classes, variáveis ou métodos:
+
 abstract: classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata
 
 class: especifica uma classe
@@ -33,7 +34,7 @@ transient: impede a serialização de campos
 
 volatile:indica que uma variável pode ser alterada durante o uso de threads
 
-# Controle de fluxo dentro de um bloco de código:
+// Controle de fluxo dentro de um bloco de código:
 
 break: sai do bloco de codigo em que ele está
 
@@ -59,7 +60,7 @@ switch:indica a variável a ser comparada nas expressões case
 
 while: executa um bloco de código repetidamente enquanto a condição for verdadeira
 
-# Tratamento de erros:
+//  Tratamento de erros:
 
 assert: testa uma expressão condicional para verificar uma suposição do programador
 
@@ -73,12 +74,12 @@ throws: indica que um método pode passar uma exceção para o método que o cha
 
 try: bloco de código que tentará ser executado, mas que pode causar uma exceção
 
-# Controle de pacotes:
+//  Controle de pacotes:
 import:importa pacotes ou classes para dentro do código
 
 package: especifica a que pacote todas as classes de um arquivo pertencem
 
-# Primitivos:
+//  Primitivos:
 boolean:um valor indicando verdadeiro ou falso
 
 byte: um inteiro de 8 bits (signed)
@@ -95,15 +96,15 @@ long: um inteiro de 64 bits (signed)
 
 short: um inteiro de 32 bits (signed)
 
-# Variáveis de referência:
+//  Variáveis de referência:
 super: refere-se a superclasse imediata
 
 this: refere-se a instância atual do objeto
 
-# Retorno de um método:
+//  Retorno de um método:
 void: indica que o método não tem retorno
 
-# Palavras reservadas não utilizadas:
+// Palavras reservadas não utilizadas:
 const: Não utilize para declarar constantes; use public static final
 
 goto: não implementada na linguagem Java por ser considerada prejudicial
