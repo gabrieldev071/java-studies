@@ -23,9 +23,9 @@ public class Operators
         // == igual igual/comparação
         // != diferente
         // < menor
-		    // > maior
-		    // <= menor igual
-		    // >= maior igual
+	// > maior
+	// <= menor igual
+	// >= maior igual
 		
 		System.out.println(a++ == 11);
 		System.out.println("--------------------");
@@ -36,34 +36,38 @@ public class Operators
       		 *  F and V =>  F
       		 *  F and F =>  F
       
-      		 *  OR
+      	 *  OR
       
       		 *  V or F => V
       		 *  V or V => V
       		 *  F or V => V
       		 *  F or F => F
       
-      		 *  XOR
+      	*  XOR
       
       		 *  V xor F => V
       		 *  V xor V => F
       		 *  F xor V => V
       		 *  F xor F => F
       
-      		 *  NEGAÇÃO LÓGICA
+      	 *  NEGAÇÃO LÓGICA
+
       		 *  !V => F
       		 *  !F => V
       		 *  
       		     */
       		
-      		boolean v = true;
-      		boolean f = false;
+      	boolean v = true;
+      	boolean f = false;
       		
-      		// and && ou &  // && se a primeira for false, nem testa a segunda, o & testa todas as confições
-      		// or ||
-      		// xor !=
-      		// ! nega um valor
+      	// and && ou &  // && se a primeira for false, nem testa a segunda, o & testa todas as confições
+      	// or ||
+      	// xor !=
+      	// ! nega um valor
 
+	// TERNÁRIO
+	int nota =7;
+	System.out.println(nota >= 7 ? "Aprovado" : "Reprovado");  //o if-else em uma linha, primeiro valor se vdd, segundo valor se falso
  
 	}
 
